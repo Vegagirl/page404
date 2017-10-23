@@ -11,13 +11,11 @@ html, body {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
   background: url('../img/bg.png') no-repeat center center;
   background-attachment: fixed;
   background-size: cover;
   font-family: 'Open Sans', sans-serif;
 }
-
 
 .text-cover {
   text-align: center;
