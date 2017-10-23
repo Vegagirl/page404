@@ -65,6 +65,12 @@ h1  {
     border-radius: 50px;
     transition: 1s;
   }
+  .colorLoop:hover {
+    background-color: #06283c;
+    font-size: 21px;
+    color: #e2623f;
+    font-weight: 400;
+  }
   h1  {
     font-size: 38px;
     font-weight: 300;
