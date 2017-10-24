@@ -25,7 +25,7 @@ body {
 }
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
   display: inline;
-  width: 650px;
+  width: 500px;
 }
 /* ---- Tipografia -----*/
 h1  {
@@ -38,7 +38,7 @@ h1  {
 /* ---- Bottom ---- */
 .colorLoop {
   background-color: #e2623f;
-  font-size: 38px;
+  font-size: 31px;
   color: white;
   font-weight: 400;
   padding: 20px 100px;
@@ -47,18 +47,38 @@ h1  {
 }
 .colorLoop:hover {
   background-color: #06283c;
-  font-size: 38px;
+  font-size: 31px;
   color: #e2623f;
   font-weight: 400;
 }
-@media screen and (max-width: 768px) {
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px)
+{
+  .text-cover {
+    text-align: center;
+    display: block;
+    vertical-align: middle;
+    padding-top: 25%;
+  }
   .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
     display: inline;
-    padding: 25px 25px 0px 25px;
+    width: 450px;
   }
+  /* ---- Tipografia -----*/
+  h1  {
+    font-size: 31px;
+    font-weight: 300;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 60px;
+  }
+  /* ---- Bottom ---- */
   .colorLoop {
     background-color: #e2623f;
-    font-size: 21px;
+    font-size: 18px;
     color: white;
     font-weight: 400;
     padding: 20px 100px;
@@ -67,18 +87,50 @@ h1  {
   }
   .colorLoop:hover {
     background-color: #06283c;
-    font-size: 21px;
+    font-size: 18px;
     color: #e2623f;
     font-weight: 400;
   }
-  h1  {
-    font-size: 38px;
-    font-weight: 300;
-    color: white;
-    padding-top: 50px;
-    padding-bottom: 60px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px)
+{
+  .text-cover {
+    text-align: center;
+    display: block;
+    vertical-align: middle;
+    padding-top: 30%;
   }
-  .text-cover{
-    padding-top: 21%;
+  .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: inline;
+    width: 550px;
+  }
+  /* ---- Bottom ---- */
+  .colorLoop {
+    background-color: #e2623f;
+    font-size: 27px;
+    color: white;
+    font-weight: 400;
+    padding: 20px 100px;
+    border-radius: 50px;
+    transition: 1s;
+  }
+  .colorLoop:hover {
+    background-color: #06283c;
+    font-size: 27px;
+    color: #e2623f;
+    font-weight: 400;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px)
+{
+  .text-cover {
+    text-align: center;
+    display: block;
+    vertical-align: middle;
+    padding-top: 22%;
   }
 }
